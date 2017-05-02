@@ -2,6 +2,11 @@
     "name": "corazzi/laravel-development-pack",
     "description": "A collection of resources and packages to use when developing a Laravel application (that won't make it to production)",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Corazzi\\LaravelDevelopmentPack\\": "src/"
+        }
+    },
     "require-dev": {
         "laracademy/interactive-make": "^0.7.0",
         "barryvdh/laravel-ide-helper": "^2.3",
