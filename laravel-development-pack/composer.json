@@ -1,0 +1,23 @@
+{
+    "name": "corazzi/laravel-development-pack",
+    "description": "A collection of resources and packages to use when developing a Laravel application (that won't make it to production)",
+    "type": "library",
+    "require-dev": {
+        "laracademy/interactive-make": "^0.7.0",
+        "barryvdh/laravel-ide-helper": "^2.3",
+        "barryvdh/laravel-debugbar": "^2.3",
+        "spatie/laravel-migrate-fresh": "^1.4",
+        "themsaid/laravel-mail-preview": "^1.2",
+        "laravel/tinker": "^1.0",
+        "filp/whoops": "^2.1",
+        "rap2hpoutre/laravel-log-viewer": "^0.10.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sacha Corazzi",
+            "email": "sacha.corazzi@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
