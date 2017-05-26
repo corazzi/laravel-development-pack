@@ -15,6 +15,9 @@ class ServiceProvider extends LaravelServiceProvider
         Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Laracademy\Commands\MakeServiceProvider::class,
+        Laravel\Tinker\TinkerServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        Themsaid\MailPreview\MailPreviewServiceProvider::class,
     ];
 
     /**
